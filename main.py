@@ -15,7 +15,7 @@ completion = openai.Completion.create(
     max_tokens=1024,
     n=1,
     stop=None,
-    temperature=0,5,
+    temperature=0.5,
 )
 
 
